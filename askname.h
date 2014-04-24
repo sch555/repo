@@ -1,0 +1,1 @@
+void aksname (char *first, char *last);
