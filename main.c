@@ -5,8 +5,8 @@ int main(int arcg, char **argv)
 {
 
 char first[255], last[255];
+char
 
-printf("Hello %s!\n", name);
 printf("Enter your first name: ");
 fgets(first, 255, stdin);
 first [strlen(name)-1] = '\0'; /* remove the newline at the end */
