@@ -4,6 +4,7 @@
 int main(int arcg, char **argv)
 {
 char first[255], last[255];
+float
 
 printf("Enter your first name: ");
 fgets(first, 255, stdin);
