@@ -13,6 +13,7 @@ int main(int argc, char **argv)
 
    printf ("Hello enter your first name:");
    printf ("Hello enter yourw firstss name:");
+    printf ("Master");
 
 
    printf("Hello, %s!\n", first, last);
