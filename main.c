@@ -1,4 +1,21 @@
 #include <stdio.h>
+#include "askname.h"
+
+int main(int arcg, char **argv)
+{
+char first[255], last[255];
+askname(first, last);
+
+printf("Hello, %s %s\n", first, last);
+return 0;
+}
+
+
+
+
+
+
+#include <stdio.h>
 #include <string.h>
 
 int main(int arcg, char **argv)
